@@ -68,6 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
+  binding.pry 
   puts holiday_hash.inspect
   binding.pry 
 
