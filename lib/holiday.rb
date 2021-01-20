@@ -68,8 +68,8 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-  holiday_hash[:summer].each do |holiday, decorations|
-      puts :summer.to_s.capitalize
+  holiday_hash[:winter].each do |holiday, decorations|
+      puts :winter.to_s.capitalize ":"
       puts holiday.to_s.capitalize + ":" + decorations.to_s.capitalize
    end 
 end
