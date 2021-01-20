@@ -71,7 +71,6 @@ def all_supplies_in_holidays(holiday_hash)
   holiday_hash[:summer].each do |holiday, decorations|
       puts :summer.to_s.capitalize
       puts holiday.to_s.capitalize + ":" + decorations.to_s.capitalize
-      end 
    end 
 end
 
